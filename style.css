@@ -51,7 +51,7 @@ h3 {
 table {
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  min-width: 25%;
 }
 
 tr {
@@ -64,4 +64,8 @@ tr:first-of-type {
 
 th {
   padding: 15px 30px;
+}
+
+ul {
+  list-style-type: none;
 }
